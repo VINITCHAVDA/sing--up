@@ -1,0 +1,103 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: cadetblue;
+ 
+}
+
+
+
+form {
+    color: rgb(0, 255, 0);
+    height: 70vh;
+    width: auto;
+    background-color: white;
+ }
+
+.account {
+  font-size: 300%;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.main {
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+.name {
+  display: flex;
+}
+
+.lastname {
+  margin-left: 20%;
+}
+
+.mail {
+  margin-top: 5%;
+}
+.emali {
+  width: 100%;
+}
+
+.password {
+  display: flex;
+  margin-top: 5%;
+}
+
+.confirmpassword {
+  margin-left: 20%;
+}
+
+.hobbies {
+  margin-left: 33%;
+}
+
+.prasnal {
+  display: flex;
+  margin-top: 5%;
+}
+
+.income {
+  margin-top: 5%;
+}
+.range {
+  display: flex;
+}
+
+.incomerange {
+  background-color: rgb(16, 145, 25);
+  color: white;
+}
+
+.agemain {
+  display: flex;
+  margin-top: 5%;
+}
+
+.age {
+  margin-left: 5%;
+}
+
+.bio {
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.crea {
+  padding: 1%;
+  width: 98%;
+  background-color: rgb(224, 223, 223);
+}
+
+.create {
+  float: right;
+}
+
+

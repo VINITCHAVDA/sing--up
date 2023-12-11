@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleform.css" />
+    <title>CREATE ACCOUNT</title>
+  </head>
+  <body>
+      <fieldset>
+        <div class="account">create account</div>
+        <hr />
+        <form>
+          <div class="main">
+            <div class="name">
+              <div>
+                <div>FIRST NAME*</div>
+                <input
+                  type="taxe"
+                  name="first name"
+                  placeholder="enter your first name"
+                />
+              </div>
+              <div class="lastname">
+                <div>LAST NAME</div>
+                <input
+                  type="taxe"
+                  name="first name"
+                  placeholder="enter your list name"
+                />
+              </div>
+            </div>
+
+            <div class="mail">EMAIL*</div>
+            <input
+              class="emali"
+              type="email"
+              name="email"
+              placeholder="Enter your email name"
+            />
+
+            <div class="password">
+              <div>
+                <div>PASSWORD*</div>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="enter your password name"
+                />
+              </div>
+
+              <div class="confirmpassword">
+                <div>CONFIRM PASSWORD*</div>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="enter your confirm password name"
+                />
+              </div>
+            </div>
+            <div class="prasnal">
+              <div>
+                <div>GENDER :</div>
+                <input class="male" type="radio" name="gander" value="male" />
+                male
+                <input
+                  class="female"
+                  type="radio"
+                  name="gander"
+                  value="female"
+                />female
+              </div>
+
+              <div class="hobbies">
+                <div>HOBBIES</div>
+                <input type="checkbox" name="hobbis" value="music" />music
+                <input type="checkbox" name="hobbis" value="sports" />sports
+                <input type="checkbox" name="hobbis" value="movies" />movies
+              </div>
+            </div>
+            <div class="income">
+              <div>
+                SOURCE OF INCOME
+                <select>
+                  <option>salaries</option>
+                  <option>business of profession</option>
+                  <option>house property</option>
+                  <option>capital gains</option>
+                  <option>other seurces</option>
+                </select>
+              </div>
+              <div class="range">
+                INCOME
+                <input type="range" minlength="20" maxlength="90" />
+                <div class="incomerange">20k</div>
+              </div>
+            </div>
+            <div class="agemain">
+              <div>
+                <div>UPLOAD PROFILE PICTURE</div>
+                <input type="file" accept="profile" />
+              </div>
+              <div class="age">
+                <div>AGE</div>
+                <input type="text" name="age" placeholder="18" />
+              </div>
+            </div>
+          </div>
+
+          <div class="bio">BIO</div>
+          <textarea class="bio" cols="60" rows="3"></textarea>
+          <div>
+            <div class="crea">
+              *requried
+              <input class="create" type="submit" value="create" />
+            </div>
+          </div>
+        </form>
+      </fieldset>
+  </body>
+</html>
